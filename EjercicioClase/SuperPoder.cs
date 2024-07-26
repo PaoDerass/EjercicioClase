@@ -9,3 +9,5 @@ namespace EjercicioClase
         public string nivel { get; set; }
     }
 }
+ 
+
