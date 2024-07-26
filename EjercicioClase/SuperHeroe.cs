@@ -16,10 +16,12 @@ namespace EjercicioClase
      public void Imprimir()
         {
             Console.WriteLine($"Nombre: {nombre}");
-            Console.WriteLine($"Nombre: {identidadSecreta}");
-            Console.WriteLine($"Nombre: {ciudad}");
-            Console.WriteLine($"Nombre: {puedeVolar}");
-            Console.WriteLine($"Nombre: {superPoder}");
+            Console.WriteLine($"Identidad Secreta: {identidadSecreta}");
+            Console.WriteLine($"Ciudad: {ciudad}");
+            Console.WriteLine($"Puede Volar: {puedeVolar}");
+            Console.WriteLine($"Super Poder: {superPoder.nombre}");
+            Console.WriteLine($"Descripcion: {superPoder.descripcion}");
+            Console.WriteLine($"Nivel: {superPoder.nivel}");
         }
 
     }
